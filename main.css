@@ -1,0 +1,227 @@
+div.container {
+  width: 100%;
+  max-width: 750px;
+  margin: auto;
+}
+
+div.logo {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+
+div.logo img {
+                max-height: 50px;
+                max-width: 320px;
+                object-fit: cover;
+            }
+            
+div.cube img {
+                max-height: 62px;
+                max-width: 98px;
+                object-fit: cover;
+            }
+
+div.navbox {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 2%;
+  text-align: center;
+  margin: auto;
+}
+
+div.navbox a {
+  text-decoration: none;
+  color: #808080;
+  letter-spacing: 1.5px;
+}
+
+div.navbox a:hover {
+  color: #191919;
+}
+
+div.nav {
+  display: inline-block;
+}
+
+
+hr {
+  border: 1px solid #e5e4e2;
+}
+
+div.cubes {
+  width: 100%;
+  max-width: 510px;
+  margin: auto;
+  text-align: center;
+  margin-top: 2%;
+}
+
+div.cube {
+  display: inline-block;
+
+}
+
+div.language {
+  width: 100%;
+  max-width: 510px;
+  margin: auto;
+  text-align: center;
+}
+
+div.lang {
+  display: inline-block;
+  margin-left: 3%;
+
+}
+
+
+div.bilder {
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+  margin-top: 2%;
+}
+
+div.bild img {
+                max-height: 380px;
+                max-width: 320px;
+                object-fit: cover;
+            }  
+ 
+
+
+div.bot {
+  margin-bottom: 1.5%;
+}
+
+.copy {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 0.900em;
+}
+
+p {
+  font-size: 0.800em;
+}
+
+hr.small {
+  margin: 0 43% 0 43%
+}
+
+h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+div.links {
+  width: 100%;
+  max-width: 700;
+  margin: auto;
+  text-align: center;
+  margin-top: 2%;
+}
+
+div.link {
+  display: inline-block;
+}
+
+div.lead {
+  margin-right: 1%;
+}
+
+div.links a {
+  text-decoration: none;
+  color: #808080;
+  letter-spacing: 1px;
+}
+
+div.links a:hover {
+  color: #191919;
+}
+
+
+
+@media all and (min-width: 550px) and (orientation:landscape), 
+				(min-width: 550px) and (orientation:portrait) 
+{
+				
+				
+p {
+	font-size: 1.100em;
+	}
+	
+h3 {
+  text-align: center;
+  font-size: 1.400em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.350em;
+}	
+
+div.logo img {
+                max-height: 98px;
+                max-width: 630px;
+                object-fit: cover;
+            }
+            
+div.cube img {
+                max-height: 98px;
+                max-width: 157px;
+                object-fit: cover;
+            }            
+            
+div.cubes {
+  width: 100%;
+  max-width: 630px;
+  margin: auto;
+  text-align: center;
+  margin-top: 2%;
+}
+
+
+div.lang img {
+                max-height: 42px;
+                max-width: 84px;
+                object-fit: cover;
+                margin-top: 3%;
+            }            
+            
+div.language {
+  width: 100%;
+  max-width: 630px;
+  margin: auto;
+  text-align: center;
+}
+
+
+div.bilder {
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+  margin-top: 2%;
+}
+
+div.bild img {
+                max-height: 400px;
+                max-width: 630px;
+                object-fit: cover;
+            }   
+
+
+
+}
+
